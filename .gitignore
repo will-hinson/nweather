@@ -1,0 +1,4 @@
+./nweather
+pkg
+src
+*.pkg.tar.zst

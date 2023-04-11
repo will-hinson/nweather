@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"Will Hinson"
+	],
+	"copyright": "Copyright © 2023, Will Hinson",
+	"dependencies": {
+		"d2sqlite3": "~>1.0.0",
+		"dxml": "~>0.4.3",
+		"htmld": "~>0.3.7",
+		"requests": "~>2.0.9"
+	},
+	"description": "A command-line application for fetching weather data from NOAA.",
+	"license": "Boost",
+	"name": "nweather"
+}

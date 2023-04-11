@@ -1,0 +1,13 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"automem": "0.6.9",
+		"cachetools": "0.4.1",
+		"d2sqlite3": "1.0.0",
+		"dxml": "0.4.3",
+		"htmld": "0.3.7",
+		"requests": "2.0.9",
+		"test_allocator": "0.3.3",
+		"unit-threaded": "0.10.8"
+	}
+}
