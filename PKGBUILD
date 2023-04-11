@@ -5,9 +5,13 @@ pkgdesc="A command-line application for fetching weather data from NOAA."
 arch=("x86_64")
 depends=("dmd" "dub")
 license=("Boost")
-source=("http://github.com/will-hinson/nweather/")
+source=("https://github.com/will-hinson/nweather/archive/refs/tags/0.0.1.tar.gz")
 sha512sums=("SKIP")
 
 package() {
-    echo "hello, world"
+    cd $pkgname-$pkgver
+    dub build
+    mkdir -p $pkgdir/usr/bin
+    cp ./nweather $pkgdir/usr/bin
+    cd ..
 }

@@ -126,6 +126,7 @@ CacheUpdate updateCache()
     if ((lastUpdate = db.getLastCacheUpdate()) is null)
     {
         log("Updating cache");
+        writeln("nweather: Updating cache (This is one-time and may take a moment)");
 
         // ensure the cache table exists
         db.ensureCacheTable();
